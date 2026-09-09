@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "product": "Mindspark Bot",
+  "version": "1.1.5",
+  "package_url": "Mindspark_Update_Universal_v1.1.5_ChromeOSFontRepair_20260909.msupdate",
+  "sha256": "e1b6f41485cbccaba86daeb96485aeca1395023703b8cceeaf5ca36e18db4f22",
+  "size": 1137014,
+  "notes": "ChromeOS font repair: fixes square-box text by installing user-local Noto fonts automatically. Keeps Chromebook +0.75 s pacing. Windows behavior unchanged."
+}
