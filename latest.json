@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "product": "Mindspark Bot",
+  "version": "1.1.0",
+  "package_url": "Mindspark_Update_Universal_v1.1.0_20260909_1620.msupdate",
+  "sha256": "6ddb1e461609d5ca1d735eebf2ee97726a6d32c22dbeef1e42d2410cd927b8cf",
+  "size": 1134299,
+  "notes": "Updater-enabled baseline. Windows keeps the current Windows pacing. ChromeOS uses the 5-tab minimum and Chromebook-slowed pacing build."
+}
