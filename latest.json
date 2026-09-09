@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.0",
-  "package_url": "Mindspark_Update_Universal_v1.1.0_20260909_1620.msupdate",
-  "sha256": "6ddb1e461609d5ca1d735eebf2ee97726a6d32c22dbeef1e42d2410cd927b8cf",
-  "size": 1134299,
-  "notes": "Updater-enabled baseline. Windows keeps the current Windows pacing. ChromeOS uses the 5-tab minimum and Chromebook-slowed pacing build."
+  "version": "1.1.2",
+  "package_url": "Mindspark_Update_Universal_v1.1.2_VersionIndicator_20260909_1632.msupdate",
+  "sha256": "ee75ef6e6f7e05e1fe0d2fe587ec2c13fdbcb30c83de9cc410ad42de9d4f9461",
+  "size": 1136035,
+  "notes": "Version indicator test: bottom-right red Version 1.1.2 with live cloud status below. Green = Bot is up to date; yellow = Old version."
 }
