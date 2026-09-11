@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.6",
-  "package_url": "Mindspark_Update_Universal_v1.1.6_ChromeOSBrowserFontFix_20260911.msupdate",
-  "sha256": "815e7cd56187494842809cf5bd1fe2cb1ef2d087c9180357b651c035fcf9fa99",
-  "size": 1137106,
-  "notes": "ChromeOS browser font repair: fixes square-box text inside the Mindspark website tabs by installing/refreshing Noto fallback fonts before Google Chrome starts. Keeps Chromebook +0.75 s pacing. Windows automation behavior is unchanged apart from the version label."
+  "version": "1.1.8",
+  "package_url": "Mindspark_Update_Universal_v1.1.8_PlaceValue_DoubleLogin_ChromePause_20260911.msupdate",
+  "sha256": "b062da81ba847ca3e08656d78b4098e9700c5877da700a933457dca3a363bd71",
+  "size": 1144043,
+  "notes": "Adds the new place-value picture MCQ handler (hundreds/tens/ones -> matching #butId option) on Windows and ChromeOS, and Security now closes /Student/double-login tabs and quarantines their account(s) for the current round so relog recovery cannot reopen them. ChromeOS only: after the first two successful Rapid Answer rounds, the normal inter-cycle pause is extended to 2 minutes to let slow Chromebook tabs finish loading. Existing tens/ones drag handler, font repair and +0.75 s ChromeOS pacing are preserved."
 }
