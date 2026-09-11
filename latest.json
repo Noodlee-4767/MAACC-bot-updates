@@ -1,9 +1,8 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.8",
-  "package_url": "Mindspark_Update_Universal_v1.1.8_PlaceValue_DoubleLogin_ChromePause_20260911.msupdate",
-  "sha256": "b062da81ba847ca3e08656d78b4098e9700c5877da700a933457dca3a363bd71",
-  "size": 1144043,
-  "notes": "Adds the new place-value picture MCQ handler (hundreds/tens/ones -> matching #butId option) on Windows and ChromeOS, and Security now closes /Student/double-login tabs and quarantines their account(s) for the current round so relog recovery cannot reopen them. ChromeOS only: after the first two successful Rapid Answer rounds, the normal inter-cycle pause is extended to 2 minutes to let slow Chromebook tabs finish loading. Existing tens/ones drag handler, font repair and +0.75 s ChromeOS pacing are preserved."
+  "version": "1.1.9",
+  "notes": "Security Check now detects the Mindspark Status/error popup (#errorPopUp), closes that tab directly through the bot instead of relying on the popup Close button, then sends the student through the existing signed-out relog recovery flow. No other bot behavior was changed.",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.9.msupdate",
+  "sha256": "9be24667baee75ba825ece8281bf7ab711f5b915e3be3e841fee8377e729b427"
 }
