@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.4",
-  "package_url": "Mindspark_Update_Universal_v1.1.4_ChromeOSSpeed075_20260909.msupdate",
-  "sha256": "e2afff9eaad815b641d66ef05f40b19fb839ac1f3b2e104601419f0f9e1345f7",
-  "size": 1135778,
-  "notes": "ChromeOS speed test: action pacing reduced from +1.25 s to +0.75 s. Windows remains unchanged."
+  "version": "1.1.6",
+  "package_url": "Mindspark_Update_Universal_v1.1.6_ChromeOSBrowserFontFix_20260911.msupdate",
+  "sha256": "815e7cd56187494842809cf5bd1fe2cb1ef2d087c9180357b651c035fcf9fa99",
+  "size": 1137106,
+  "notes": "ChromeOS browser font repair: fixes square-box text inside the Mindspark website tabs by installing/refreshing Noto fallback fonts before Google Chrome starts. Keeps Chromebook +0.75 s pacing. Windows automation behavior is unchanged apart from the version label."
 }
