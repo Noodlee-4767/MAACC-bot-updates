@@ -1,8 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.9",
-  "notes": "Security Check now detects the Mindspark Status/error popup (#errorPopUp), closes that tab directly through the bot instead of relying on the popup Close button, then sends the student through the existing signed-out relog recovery flow. No other bot behavior was changed.",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.9.msupdate",
-  "sha256": "9be24667baee75ba825ece8281bf7ab711f5b915e3be3e841fee8377e729b427"
+  "version": "1.1.11",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.11_ChromeOS_Performance_Stability.msupdate",
+  "sha256": "e39ef12d456480cf5067d0268eb8f1f484682b419fdbfbd6f7397cdbb0d2eb8e",
+  "size": 1149046,
+  "notes": "ChromeOS-only performance/stability update. Windows automation behavior is unchanged apart from the requested 1.1.11 version indicator. ChromeOS adds combined Security reads with fresh destructive-action verification, batched GUI log rendering, direct COPY LOG, redundant redraw suppression, and completed-batch cleanup."
 }
