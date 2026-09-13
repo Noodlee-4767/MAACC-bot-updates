@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.11",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.11_ChromeOS_Performance_Stability.msupdate",
-  "sha256": "e39ef12d456480cf5067d0268eb8f1f484682b419fdbfbd6f7397cdbb0d2eb8e",
-  "size": 1149046,
-  "notes": "ChromeOS-only performance/stability update. Windows automation behavior is unchanged apart from the requested 1.1.11 version indicator. ChromeOS adds combined Security reads with fresh destructive-action verification, batched GUI log rendering, direct COPY LOG, redundant redraw suppression, and completed-batch cleanup."
+  "version": "1.1.16",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.16_Question_Handler_Audit_Fix.msupdate",
+  "sha256": "cdee7ecbc25e82b0c0899adf43f166f4ab951841b337bcb8069d84d40525e402",
+  "size": 1162906,
+  "notes": "Windows and ChromeOS Math question-handler audit. Drag-equation now uses stable digit/blank IDs even when optional jQuery UI classes are absent, prefers trusted frame-aware drag_to with coordinate fallback, verifies every placement, and emits stage-specific diagnostics. MCQ+DropDown supports both option-class spellings and mixed native/custom dropdown controls. Make-number, tens/ones drag, and place-value rows retain dynamic values, verification, and stable-ID fallbacks. Fraction, natural-number, long-grid, home-recovery, security, timing, concurrency, and unrelated behavior remain preserved."
 }
