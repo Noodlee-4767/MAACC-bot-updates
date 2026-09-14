@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.21",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.21_ChromeOS_Stability_EvenTabs_20260914.msupdate",
-  "sha256": "39462af950ba2aae591a8ed8e5c44a6621ff3269a8cde2ffe7d2b4e255d0e397",
-  "size": 1174718,
-  "notes": "ChromeOS stability update. Full Auto tab-limit control now exposes only the controlled even-numbered sequence 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, with 20 as the hard maximum and 10 as the safe default. Existing v1.1.19/v1.1.20 strategic Start/Answer/Submit/Next pacing is preserved. AFK is redesigned from continuous foreground tab thrashing into one lightweight sweep about every 40 seconds, reducing sustained Chrome/Crostini load. ChromeOS foreground tabs request a non-blocking Screen Wake Lock as a best-effort second layer against display sleep; the native ChromeOS Keep display on setting remains recommended. Google Chrome launch adds --disable-dev-shm-usage for Crostini shared-memory stability. The bot now monitors the Playwright browser connection and aborts active automation if Chrome crashes/disconnects instead of allowing timers to keep pretending work is progressing. Windows behavior is unchanged apart from the version bump."
+  "version": "1.1.22",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.22_ChromeOS_TabCloseSafety_20260914.msupdate",
+  "sha256": "928ff7e70ae34fb502c8f9d685cabf27b3094204abb968c5e281101a82e29462",
+  "size": 1176296,
+  "notes": "v1.1.22 ChromeOS tab-close safety update built directly on v1.1.21. The v1.1.21 strategic Start/Answer/Submit/Next sequencing and even tab-limit sequence 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 are preserved unchanged. Fixes the around-Answer mass-tab-close risk in four layers: the Rapid hard-limit watcher now uses a private pause-aware active-time counter and cannot inherit stale GUI timer state; the shared session clock is synchronously primed before any watcher starts; plain-login/inactivity detection now requires the real /Student/onboard/login/ route so question pages with text inputs/Next controls cannot be falsely relogged and closed; and automatic Internet Down now requires both a freshly verified offline tab and an independent failed Mindspark endpoint probe before destructive batch recovery. Unexpected Start/Student/Friend/Next integrity failures and unhandled Full Auto errors now stop automation while preserving surviving tabs for inspection instead of mass-closing the batch. Verified terminal closures remain: explicit Stop/new-session cleanup, confirmed Internet Down recovery, exact final/90-minute completion handling, and the verified 48/50-active-minute hard limits. Windows behavior is unchanged apart from the version bump to 1.1.22."
 }
