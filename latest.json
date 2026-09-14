@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.18",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.18_Runtime_Integrity_Audit_20260914.msupdate",
-  "sha256": "1f30b5387315896c6407d5db6a1564c271f6e10ff737cb25bf71b9ba306b7e94",
-  "size": 1171439,
-  "notes": "Runtime integrity audit update. ChromeOS keeps the v1.1.17 strict full-batch Step-0 URL preload and 2-second startup/relog settling behavior. Both Windows and ChromeOS now refuse to continue Full Auto on partial Student Login, failed subject selection, incomplete Friend Login, or unresolved Start/Next controls. Friend Login Enter is now pairing-only, Student-2 username/password stages report real success, paired-name verification confirms both students are visible, and relog pairing failures are re-queued instead of being falsely Started/closed as recovered. A final Next retry is attempted before failing a stuck batch, and unexpected Full Auto errors now close bot tabs cleanly. Existing question handlers and other v1.1.17 behavior are preserved."
+  "version": "1.1.21",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.21_ChromeOS_Stability_EvenTabs_20260914.msupdate",
+  "sha256": "39462af950ba2aae591a8ed8e5c44a6621ff3269a8cde2ffe7d2b4e255d0e397",
+  "size": 1174718,
+  "notes": "ChromeOS stability update. Full Auto tab-limit control now exposes only the controlled even-numbered sequence 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, with 20 as the hard maximum and 10 as the safe default. Existing v1.1.19/v1.1.20 strategic Start/Answer/Submit/Next pacing is preserved. AFK is redesigned from continuous foreground tab thrashing into one lightweight sweep about every 40 seconds, reducing sustained Chrome/Crostini load. ChromeOS foreground tabs request a non-blocking Screen Wake Lock as a best-effort second layer against display sleep; the native ChromeOS Keep display on setting remains recommended. Google Chrome launch adds --disable-dev-shm-usage for Crostini shared-memory stability. The bot now monitors the Playwright browser connection and aborts active automation if Chrome crashes/disconnects instead of allowing timers to keep pretending work is progressing. Windows behavior is unchanged apart from the version bump."
 }
