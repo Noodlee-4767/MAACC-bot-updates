@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.11",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.11_ChromeOS_Performance_Stability.msupdate",
-  "sha256": "e39ef12d456480cf5067d0268eb8f1f484682b419fdbfbd6f7397cdbb0d2eb8e",
-  "size": 1149046,
-  "notes": "ChromeOS-only performance/stability update. Windows automation behavior is unchanged apart from the requested 1.1.11 version indicator. ChromeOS adds combined Security reads with fresh destructive-action verification, batched GUI log rendering, direct COPY LOG, redundant redraw suppression, and completed-batch cleanup."
+  "version": "1.1.18",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.18_Runtime_Integrity_Audit_20260914.msupdate",
+  "sha256": "1f30b5387315896c6407d5db6a1564c271f6e10ff737cb25bf71b9ba306b7e94",
+  "size": 1171439,
+  "notes": "Runtime integrity audit update. ChromeOS keeps the v1.1.17 strict full-batch Step-0 URL preload and 2-second startup/relog settling behavior. Both Windows and ChromeOS now refuse to continue Full Auto on partial Student Login, failed subject selection, incomplete Friend Login, or unresolved Start/Next controls. Friend Login Enter is now pairing-only, Student-2 username/password stages report real success, paired-name verification confirms both students are visible, and relog pairing failures are re-queued instead of being falsely Started/closed as recovered. A final Next retry is attempted before failing a stuck batch, and unexpected Full Auto errors now close bot tabs cleanly. Existing question handlers and other v1.1.17 behavior are preserved."
 }
