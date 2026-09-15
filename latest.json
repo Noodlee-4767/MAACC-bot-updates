@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.25",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.25_AnyTwo_NaturalCards_20260915.msupdate",
-  "sha256": "de9bda82090d2c86121d45f958c3ab5f423720ce5c4a76dbb2da3f3d1ffa5608",
-  "size": 1174781,
-  "notes": "Windows + ChromeOS question-handler update based directly on audited v1.1.24. The natural-number click-to-box widget identified by #droppableArea1BG, #droppableArea1, #droppableArea2 and visible drag-* option cards now follows the requested simple rule: click ANY TWO visible unselected options and verify that at least two cards are present in #droppableArea1. The old value parsing, fraction evaluation, natural-number classification and exact-set reconciliation for this widget are removed. Normal Playwright clicking is attempted first, then DOM click, with a final inline-handler-equivalent fallback matching Mindspark's own append-to-#droppableArea1/changeDroppable behavior. Shared Submit remains separate. All strategic sequencing, Start/Security/Answer/Submit/Next pacing, relog/recovery, tab limits and unrelated handlers remain unchanged."
+  "version": "1.1.29",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.29_ShortNotes_20260915_1604.msupdate",
+  "sha256": "80c8ba40a513daa43807216156ad10880e82d4f87bcf2da03ed676b38f8d00e4",
+  "size": 1176280,
+  "notes": "● Fixed Bugs\n● Improved Bot Performance\n● Improved Strategic Sequencing\n● Added New Question Types\n● Improved Relog Recovery"
 }
