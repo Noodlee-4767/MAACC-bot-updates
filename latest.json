@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.22",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.22_ChromeOS_TabCloseSafety_20260914.msupdate",
-  "sha256": "928ff7e70ae34fb502c8f9d685cabf27b3094204abb968c5e281101a82e29462",
-  "size": 1176296,
-  "notes": "v1.1.22 ChromeOS tab-close safety update built directly on v1.1.21. The v1.1.21 strategic Start/Answer/Submit/Next sequencing and even tab-limit sequence 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 are preserved unchanged. Fixes the around-Answer mass-tab-close risk in four layers: the Rapid hard-limit watcher now uses a private pause-aware active-time counter and cannot inherit stale GUI timer state; the shared session clock is synchronously primed before any watcher starts; plain-login/inactivity detection now requires the real /Student/onboard/login/ route so question pages with text inputs/Next controls cannot be falsely relogged and closed; and automatic Internet Down now requires both a freshly verified offline tab and an independent failed Mindspark endpoint probe before destructive batch recovery. Unexpected Start/Student/Friend/Next integrity failures and unhandled Full Auto errors now stop automation while preserving surviving tabs for inspection instead of mass-closing the batch. Verified terminal closures remain: explicit Stop/new-session cleanup, confirmed Internet Down recovery, exact final/90-minute completion handling, and the verified 48/50-active-minute hard limits. Windows behavior is unchanged apart from the version bump to 1.1.22."
+  "version": "1.1.24",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.24_Full_Audit_Safety_20260914.msupdate",
+  "sha256": "14c292a1f510551fbe6f1225387e4ce6165455397569b842e0c43f85da9c1eb7",
+  "size": 1176521,
+  "notes": "ChromeOS full reliability audit rebuilt from the proven v1.1.21 strategic-sequencing base via the minimal v1.1.23 Start-gate fix. Strategic Hindi Start, Math Start, Answer and Submit worker logic and all strategic pacing constants remain unchanged from v1.1.21; Next keeps the same pacing and click order, with only its final post-remedial verdict corrected to require the actual अगला control. Security plain-login detection now requires the real /Student/onboard/login URL plus visible login controls, preventing question #nextButton/text inputs from being misclassified as logout/relog. A reported post-Start pending control now receives an abnormal-only shared settle and targeted single-tab repair; unresolved Start/Next/setup integrity faults stop with browser tabs preserved instead of mass-closing the batch. Confirmed lifecycle closes remain intact: explicit stop/new session cleanup, freshly verified Internet Down recovery, exact terminal/completion conditions and the 48/50-minute hard limits. Windows automation behavior is unchanged apart from the version bump."
 }
