@@ -1,8 +1,8 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.29",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.29_WindowsCurrent_ChromeOSPreserved_20260915_1557.msupdate",
+  "version": "1.1.30",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.30_WindowsCorrected_ChromeOSUnchanged_20260915_1618.msupdate",
   "sha256": "80c8ba40a513daa43807216156ad10880e82d4f87bcf2da03ed676b38f8d00e4",
   "size": 1176280,
   "notes": "● Fixed Bugs\n● Improved Bot Performance\n● Improved Strategic Sequencing\n● Added New Question Types\n● Improved Relog Recovery"
