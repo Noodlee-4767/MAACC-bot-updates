@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.30",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.30_Windows129_ChromeUnchanged_20260915_1632.msupdate",
-  "sha256": "3729589b956d593cec2aebbfdbe74f28b897b90dbebab272b662726e930524d7",
-  "size": 1178955,
-  "notes": "• Fixed Bugs\n• Improved Bot Performance\n• Improved Strategic Sequencing"
+  "version": "1.1.31",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.31_Windows129_ChromeUnchanged_UbuntuTabSafety_20260915_2231.msupdate",
+  "sha256": "967c1bf0cb00476528cc09cdc7a1756b4c31f7a36ce44b83e26933d27af2710a",
+  "size": 1759804,
+  "notes": "◦ Fixed Bugs\n◦ Improved Bot Performance\n◦ Improved Strategic Sequencing\n◦ Improved Ubuntu Stability"
 }
