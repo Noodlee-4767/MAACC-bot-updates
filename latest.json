@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.33",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.33_Ubuntu_GUIVisibleInternetSafety_20260916.msupdate",
-  "sha256": "75b86534ae26389c128feac18f65f7f17e93d52d7a9ec5cad223df3b96ea0519",
-  "size": 1784854,
-  "notes": "◦ Fixed Ubuntu launcher terminal\n◦ Retained visible-only Internet Down detection\n◦ Removed the unused 2.2-second normal-security probe setting\n◦ Preserved tabs on unexpected Full Auto errors"
+  "version": "1.1.35",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.35_WindowsRelogFix_NoInternetModeLinux_20260916.msupdate",
+  "sha256": "5a4e108b30543f43b17e84dc4b20d1b4ced111d8d75e888504dd048e56e742a9",
+  "size": 1784456,
+  "notes": "◦ Fixed false and self-created Windows relog recovery\n◦ Removed Internet Down detection and recovery on Ubuntu\n◦ Removed Internet Down detection and recovery on ChromeOS\n◦ Preserved all other v1.1.34 behavior"
 }
