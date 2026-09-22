@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.35",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.35_WindowsRelogFix_NoInternetModeLinux_20260916.msupdate",
-  "sha256": "5a4e108b30543f43b17e84dc4b20d1b4ced111d8d75e888504dd048e56e742a9",
-  "size": 1784456,
-  "notes": "◦ Fixed false and self-created Windows relog recovery\n◦ Removed Internet Down detection and recovery on Ubuntu\n◦ Removed Internet Down detection and recovery on ChromeOS\n◦ Preserved all other v1.1.34 behavior"
+  "version": "1.1.36",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.36_WindowsUbuntu_RepeatQueueFill_20260922.msupdate",
+  "sha256": "d4e401a9d6d3147ed73eae8e7171e95b93cb86025be0f140556b5ef7f1436b7d",
+  "size": 1758385,
+  "notes": "◦ Windows and Ubuntu now fill repeat sessions up to the selected tab limit\n◦ Remaining capacity can continue into the next same-subject repeat round\n◦ Prevents duplicate account logins within the same browser session\n◦ Repeat 1 behavior remains unchanged\n◦ ChromeOS behavior remains unchanged"
 }
