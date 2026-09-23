@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.36",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.36_WindowsUbuntu_RepeatQueueFill_20260922.msupdate",
-  "sha256": "d4e401a9d6d3147ed73eae8e7171e95b93cb86025be0f140556b5ef7f1436b7d",
-  "size": 1758385,
-  "notes": "◦ Windows and Ubuntu now fill repeat sessions up to the selected tab limit\n◦ Remaining capacity can continue into the next same-subject repeat round\n◦ Prevents duplicate account logins within the same browser session\n◦ Repeat 1 behavior remains unchanged\n◦ ChromeOS behavior remains unchanged"
+  "version": "1.1.37",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.37_AllOS_TwoPassAagey_20260923.msupdate",
+  "sha256": "2a97a55db35e29000f59647713b98558acde64245232fb8ffc02aa2d98615d8b",
+  "size": 1758027,
+  "notes": "◦ Aagey now uses exactly two fast passes on Windows, Ubuntu, and ChromeOS\n◦ First pass clicks Aagey across all tabs\n◦ Second pass clicks only tabs where Aagey is immediately visible and skips the rest\n◦ No Aagey post-click confirmation or further retries\n◦ Preserved v1.1.36 repeat queue filling"
 }
