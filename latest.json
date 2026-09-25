@@ -1,9 +1,9 @@
 {
   "format": 1,
   "product": "Mindspark Bot",
-  "version": "1.1.37",
-  "package_url": "Mindspark_Bot_Universal_Update_v1.1.37_AllOS_TwoPassAagey_20260923.msupdate",
-  "sha256": "2a97a55db35e29000f59647713b98558acde64245232fb8ffc02aa2d98615d8b",
-  "size": 1758027,
-  "notes": "◦ Aagey now uses exactly two fast passes on Windows, Ubuntu, and ChromeOS\n◦ First pass clicks Aagey across all tabs\n◦ Second pass clicks only tabs where Aagey is immediately visible and skips the rest\n◦ No Aagey post-click confirmation or further retries\n◦ Preserved v1.1.36 repeat queue filling"
+  "version": "1.1.39",
+  "package_url": "Mindspark_Bot_Universal_Update_v1.1.39_SeparateOSChannels_20260925.msupdate",
+  "sha256": "3942c3bbd3eb6e85ba13ed79e98433751307b211894b3e5065044d69b41a9eab",
+  "size": 1777653,
+  "notes": "◦ Final universal migration update for Windows, Ubuntu, and ChromeOS\n◦ Each installed bot now checks its own OS-specific GitHub update repository\n◦ Windows uses Windows-latest.json, Ubuntu uses Ubuntu-latest.json, and ChromeOS uses ChromeOS-latest.json\n◦ Includes the latest Windows queue layout and the Ubuntu/ChromeOS Discord log-file reporting changes"
 }
